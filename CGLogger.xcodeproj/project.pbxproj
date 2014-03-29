@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EFE306D18E65A6D003CBAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE306C18E65A6D003CBAFD /* Foundation.framework */; };
+		2EFE307B18E65A6D003CBAFD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE307A18E65A6D003CBAFD /* XCTest.framework */; };
+		2EFE307C18E65A6D003CBAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE306C18E65A6D003CBAFD /* Foundation.framework */; };
+		2EFE307E18E65A6D003CBAFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE307D18E65A6D003CBAFD /* UIKit.framework */; };
+		2EFE308118E65A6D003CBAFD /* libCGLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE306918E65A6D003CBAFD /* libCGLogger.a */; };
+		2EFE308718E65A6D003CBAFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EFE308518E65A6D003CBAFD /* InfoPlist.strings */; };
+		2EFE308918E65A6D003CBAFD /* CGLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE308818E65A6D003CBAFD /* CGLoggerTests.m */; };
+		2EFE30FF18E65D68003CBAFD /* CGLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFE30FE18E65D68003CBAFD /* CGLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EFE307F18E65A6D003CBAFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EFE306118E65A6D003CBAFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EFE306818E65A6D003CBAFD;
+			remoteInfo = CGLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2EFE306718E65A6D003CBAFD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2EFE306918E65A6D003CBAFD /* libCGLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCGLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFE306C18E65A6D003CBAFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2EFE307018E65A6D003CBAFD /* CGLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGLogger-Prefix.pch"; sourceTree = "<group>"; };
+		2EFE307918E65A6D003CBAFD /* CGLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFE307A18E65A6D003CBAFD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2EFE307D18E65A6D003CBAFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2EFE308418E65A6D003CBAFD /* CGLoggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CGLoggerTests-Info.plist"; sourceTree = "<group>"; };
+		2EFE308618E65A6D003CBAFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2EFE308818E65A6D003CBAFD /* CGLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGLoggerTests.m; sourceTree = "<group>"; };
+		2EFE30FD18E65D68003CBAFD /* CGLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLogger.h; sourceTree = "<group>"; };
+		2EFE30FE18E65D68003CBAFD /* CGLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLogger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EFE306618E65A6D003CBAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE306D18E65A6D003CBAFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFE307618E65A6D003CBAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE307B18E65A6D003CBAFD /* XCTest.framework in Frameworks */,
+				2EFE308118E65A6D003CBAFD /* libCGLogger.a in Frameworks */,
+				2EFE307E18E65A6D003CBAFD /* UIKit.framework in Frameworks */,
+				2EFE307C18E65A6D003CBAFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EFE306018E65A6D003CBAFD = {
+			isa = PBXGroup;
+			children = (
+				2EFE306E18E65A6D003CBAFD /* CGLogger */,
+				2EFE308218E65A6D003CBAFD /* CGLoggerTests */,
+				2EFE306B18E65A6D003CBAFD /* Frameworks */,
+				2EFE306A18E65A6D003CBAFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EFE306A18E65A6D003CBAFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE306918E65A6D003CBAFD /* libCGLogger.a */,
+				2EFE307918E65A6D003CBAFD /* CGLoggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EFE306B18E65A6D003CBAFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE306C18E65A6D003CBAFD /* Foundation.framework */,
+				2EFE307A18E65A6D003CBAFD /* XCTest.framework */,
+				2EFE307D18E65A6D003CBAFD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EFE306E18E65A6D003CBAFD /* CGLogger */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE30FD18E65D68003CBAFD /* CGLogger.h */,
+				2EFE30FE18E65D68003CBAFD /* CGLogger.m */,
+				2EFE306F18E65A6D003CBAFD /* Supporting Files */,
+			);
+			path = CGLogger;
+			sourceTree = "<group>";
+		};
+		2EFE306F18E65A6D003CBAFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE307018E65A6D003CBAFD /* CGLogger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EFE308218E65A6D003CBAFD /* CGLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE308818E65A6D003CBAFD /* CGLoggerTests.m */,
+				2EFE308318E65A6D003CBAFD /* Supporting Files */,
+			);
+			path = CGLoggerTests;
+			sourceTree = "<group>";
+		};
+		2EFE308318E65A6D003CBAFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EFE308418E65A6D003CBAFD /* CGLoggerTests-Info.plist */,
+				2EFE308518E65A6D003CBAFD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EFE306818E65A6D003CBAFD /* CGLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EFE308C18E65A6D003CBAFD /* Build configuration list for PBXNativeTarget "CGLogger" */;
+			buildPhases = (
+				2EFE306518E65A6D003CBAFD /* Sources */,
+				2EFE306618E65A6D003CBAFD /* Frameworks */,
+				2EFE306718E65A6D003CBAFD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGLogger;
+			productName = CGLogger;
+			productReference = 2EFE306918E65A6D003CBAFD /* libCGLogger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2EFE307818E65A6D003CBAFD /* CGLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EFE308F18E65A6D003CBAFD /* Build configuration list for PBXNativeTarget "CGLoggerTests" */;
+			buildPhases = (
+				2EFE307518E65A6D003CBAFD /* Sources */,
+				2EFE307618E65A6D003CBAFD /* Frameworks */,
+				2EFE307718E65A6D003CBAFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EFE308018E65A6D003CBAFD /* PBXTargetDependency */,
+			);
+			name = CGLoggerTests;
+			productName = CGLoggerTests;
+			productReference = 2EFE307918E65A6D003CBAFD /* CGLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EFE306118E65A6D003CBAFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Revision Works, LLC";
+			};
+			buildConfigurationList = 2EFE306418E65A6D003CBAFD /* Build configuration list for PBXProject "CGLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2EFE306018E65A6D003CBAFD;
+			productRefGroup = 2EFE306A18E65A6D003CBAFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EFE306818E65A6D003CBAFD /* CGLogger */,
+				2EFE307818E65A6D003CBAFD /* CGLoggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EFE307718E65A6D003CBAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE308718E65A6D003CBAFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EFE306518E65A6D003CBAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE30FF18E65D68003CBAFD /* CGLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EFE307518E65A6D003CBAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFE308918E65A6D003CBAFD /* CGLoggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EFE308018E65A6D003CBAFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EFE306818E65A6D003CBAFD /* CGLogger */;
+			targetProxy = 2EFE307F18E65A6D003CBAFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EFE308518E65A6D003CBAFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EFE308618E65A6D003CBAFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EFE308A18E65A6D003CBAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EFE308B18E65A6D003CBAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EFE308D18E65A6D003CBAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CGLogger.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGLogger/CGLogger-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2EFE308E18E65A6D003CBAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CGLogger.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGLogger/CGLogger-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2EFE309018E65A6D003CBAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGLogger/CGLogger-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CGLoggerTests/CGLoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2EFE309118E65A6D003CBAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGLogger/CGLogger-Prefix.pch";
+				INFOPLIST_FILE = "CGLoggerTests/CGLoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EFE306418E65A6D003CBAFD /* Build configuration list for PBXProject "CGLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFE308A18E65A6D003CBAFD /* Debug */,
+				2EFE308B18E65A6D003CBAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EFE308C18E65A6D003CBAFD /* Build configuration list for PBXNativeTarget "CGLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFE308D18E65A6D003CBAFD /* Debug */,
+				2EFE308E18E65A6D003CBAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EFE308F18E65A6D003CBAFD /* Build configuration list for PBXNativeTarget "CGLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFE309018E65A6D003CBAFD /* Debug */,
+				2EFE309118E65A6D003CBAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EFE306118E65A6D003CBAFD /* Project object */;
+}
