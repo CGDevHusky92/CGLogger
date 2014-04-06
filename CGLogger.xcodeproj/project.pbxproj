@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E322AF718F2087D0005CF17 /* CGLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFE30FD18E65D68003CBAFD /* CGLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EFE306D18E65A6D003CBAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE306C18E65A6D003CBAFD /* Foundation.framework */; };
 		2EFE307B18E65A6D003CBAFD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE307A18E65A6D003CBAFD /* XCTest.framework */; };
 		2EFE307C18E65A6D003CBAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFE306C18E65A6D003CBAFD /* Foundation.framework */; };
@@ -143,6 +144,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2E322AF618F208790005CF17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E322AF718F2087D0005CF17 /* CGLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		2EFE306818E65A6D003CBAFD /* CGLogger */ = {
 			isa = PBXNativeTarget;
@@ -151,6 +163,7 @@
 				2EFE306518E65A6D003CBAFD /* Sources */,
 				2EFE306618E65A6D003CBAFD /* Frameworks */,
 				2EFE306718E65A6D003CBAFD /* CopyFiles */,
+				2E322AF618F208790005CF17 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -405,6 +418,7 @@
 				2EFE308E18E65A6D003CBAFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EFE308F18E65A6D003CBAFD /* Build configuration list for PBXNativeTarget "CGLoggerTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +427,7 @@
 				2EFE309118E65A6D003CBAFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
